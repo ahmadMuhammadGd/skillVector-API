@@ -1,0 +1,12 @@
+compress_fasttext==0.1.5
+nltk==3.9.1
+numpy==2.2.1
+pandas==2.2.3
+psycopg2==2.9.10
+psycopg2_binary==2.9.10
+python-dotenv==1.0.1
+Requests==2.32.3
+tqdm==4.67.1
+kaggle==1.6.17
+scikit-learn==1.6.0
+fastapi[standard]==0.115.6

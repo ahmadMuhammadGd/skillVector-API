@@ -1,0 +1,13 @@
+version: '3'
+services:
+  fastapi:
+    build: .
+    hostname: fastapi
+    volumes:
+      - .:/app
+      - nltk_data:/root/nltk_data
+    environment:
+      - PYTHONPATH=$PYTHONPATH:./modules
+
+volumes:
+  nltk_data:
